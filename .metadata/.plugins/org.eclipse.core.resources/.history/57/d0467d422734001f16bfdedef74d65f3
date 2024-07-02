@@ -1,0 +1,4 @@
+IncludesAutodiscovery=true
+aurixDevice=TC27xTP_D-Step
+aurixPlatform=KIT_AURIX_TC275_ARD_SB
+eclipse.preferences.version=1

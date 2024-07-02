@@ -1,0 +1,1072 @@
+16:12:31 **** Build of configuration TriCore Debug (TASKING) for project 02_UART ****
+make --output-sync -j12 all 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_PinMap\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.d" > "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.d_sed" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_PinMap\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.d" > "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.d_sed" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_PinMap\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.d" > "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.d_sed" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.c
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.c
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_PinMap\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.d" > "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.d_sed" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_PinMap\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.d" > "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.d_sed" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.c
+Invoking: TASKING C/C++ Compiler
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_PinMap\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.d" > "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.d_sed" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_PinMap\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.d" > "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.d_sed" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.c
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.c
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_PinMap\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.d" > "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.d_sed" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.c
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.c
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_PinMap\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.d" > "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.d_sed" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_PinMap\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.d" > "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.d_sed" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.c
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.c
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_PinMap\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.d" > "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.d_sed" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.c
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.c
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_PinMap\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.d" > "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.d_sed" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.c
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_PinMap\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.d" > "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.d_sed" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_PinMap\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.d" > "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.d_sed" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_PinMap\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.d" > "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.d_sed" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.asm.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.asm.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.asm.src" "../Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.asm.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.asm.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_Lib\/DataHandling\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.asm.d" > "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.asm.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.asm.d_sed" "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.asm.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.asm.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.asm.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_PinMap\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.d" > "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.d_sed" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_PinMap\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.d" > "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.d_sed" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_Impl\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.d" > "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.d_sed" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_Impl\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.d" > "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.d_sed" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.c
+Invoking: TASKING C/C++ Compiler
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_PinMap\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.d" > "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.d_sed" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.c
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.c
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_Impl\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.d" > "Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.d_sed" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_Impl\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.d" > "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.d_sed" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.src" "../Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_Lib\/DataHandling\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.d" > "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.d_sed" "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_Impl\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.d" > "Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.d_sed" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_Impl\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.d" > "Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.d_sed" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_Impl\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.d" > "Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.d_sed" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.c
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.c
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_Impl\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.d" > "Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.d_sed" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.c
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.c
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_Impl\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.d" > "Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.d_sed" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_Impl\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.d" > "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.d_sed" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_PinMap\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.d" > "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.d_sed" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.c
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.c" && \
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+if [ -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_Impl\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.d" > "Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.d_sed" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_Impl\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.d" > "Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.d_sed" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.c
+Invoking: TASKING C/C++ Compiler
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_Impl\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.d" > "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.d_sed" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_Impl\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.d" > "Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.d_sed" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_Impl\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.d" > "Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.d_sed" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.c
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.c
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_Impl\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.d" > "Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.d_sed" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_Impl\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.d" > "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.d_sed" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.c
+Invoking: TASKING C/C++ Compiler
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_Impl\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.d" > "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.d_sed" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_Impl\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.d" > "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.d_sed" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.c
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_Fifo.c
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_Fifo.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_Fifo.src" "../Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_Fifo.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_Fifo.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_Lib\/DataHandling\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_Fifo.d" > "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_Fifo.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_Fifo.d_sed" "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_Fifo.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_Fifo.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_Fifo.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_Impl\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.d" > "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.d_sed" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.c
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.c
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_Impl\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.d" > "Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.d_sed" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.c
+Invoking: TASKING C/C++ Compiler
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_Impl\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.d" > "Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.d_sed" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/_Impl\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.d" > "Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.d_sed" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.d" && rm -f "Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.src" "../Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/Scu\/Std\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.d" > "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.d_sed" "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.d" && rm -f "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.src" "../Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/Stm\/Std\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.d" > "Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.d_sed" "Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.d" && rm -f "Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.src" "../Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/Src\/Std\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.d" > "Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.d_sed" "Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.d" && rm -f "Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.src" "../Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/Scu\/Std\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.d" > "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.d_sed" "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.d" && rm -f "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.src" "../Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/Mtu\/Std\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.d" > "Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.d_sed" "Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.d" && rm -f "Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.c
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.src" "../Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.c" && \
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+if [ -f "Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/Port\/Std\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.d" > "Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.d_sed" "Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.d" && rm -f "Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.c
+Invoking: TASKING C/C++ Compiler
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.src" "../Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/Scu\/Std\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.d" > "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.d_sed" "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.d" && rm -f "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.c
+Invoking: TASKING C/C++ Compiler
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.src" "../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/Gtm\/Std\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.d" > "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.d_sed" "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.d" && rm -f "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.src" "../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/Gtm\/Std\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.d" > "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.d_sed" "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.d" && rm -f "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.c
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Building file: ../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.c
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.src" "../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/Gtm\/Std\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.d" > "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.d_sed" "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.d" && rm -f "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.c
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Building file: ../Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.c
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.src" "../Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/Cpu\/Std\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.d" > "Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.d_sed" "Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.d" && rm -f "Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.src" "../Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/Cpu\/Trap\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.d" > "Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.d_sed" "Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.d" && rm -f "Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.c
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.src" "../Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.c" && \
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+if [ -f "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/Cpu\/CStart\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.d" > "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.d_sed" "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.d" && rm -f "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.c
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Building file: ../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.c
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.src" "../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/Gtm\/Std\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.d" > "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.d_sed" "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.d" && rm -f "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.src" "../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/Gtm\/Std\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.d" > "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.d_sed" "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.d" && rm -f "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.c
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Building file: ../Libraries/iLLD/TC27D/Tricore/Cpu/Irq/IfxCpu_Irq.c
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Cpu/Irq/IfxCpu_Irq.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Cpu/Irq/IfxCpu_Irq.src" "../Libraries/iLLD/TC27D/Tricore/Cpu/Irq/IfxCpu_Irq.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/Cpu/Irq/IfxCpu_Irq.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/Cpu\/Irq\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/Cpu/Irq/IfxCpu_Irq.d" > "Libraries/iLLD/TC27D/Tricore/Cpu/Irq/IfxCpu_Irq.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/Cpu/Irq/IfxCpu_Irq.d_sed" "Libraries/iLLD/TC27D/Tricore/Cpu/Irq/IfxCpu_Irq.d" && rm -f "Libraries/iLLD/TC27D/Tricore/Cpu/Irq/IfxCpu_Irq.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Cpu/Irq/IfxCpu_Irq.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.src" "../Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/Cpu\/CStart\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.d" > "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.d_sed" "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.d" && rm -f "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.c
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Building file: ../Libraries/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.c
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.src" "../Libraries/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.c" && \
+if [ -f "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/Service\/CpuGeneric\/StdIf\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.d" > "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.d_sed" && cp "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.d_sed" "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.d" && rm -f "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.c
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Building file: ../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.c
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.src" "../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/Gtm\/Std\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.d" > "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.d_sed" "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.d" && rm -f "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Asclin/Std/IfxAsclin.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Asclin/Std/IfxAsclin.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Asclin/Std/IfxAsclin.src" "../Libraries/iLLD/TC27D/Tricore/Asclin/Std/IfxAsclin.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/Asclin/Std/IfxAsclin.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/Asclin\/Std\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/Asclin/Std/IfxAsclin.d" > "Libraries/iLLD/TC27D/Tricore/Asclin/Std/IfxAsclin.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/Asclin/Std/IfxAsclin.d_sed" "Libraries/iLLD/TC27D/Tricore/Asclin/Std/IfxAsclin.d" && rm -f "Libraries/iLLD/TC27D/Tricore/Asclin/Std/IfxAsclin.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Asclin/Std/IfxAsclin.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.src" "../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/Gtm\/Std\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.d" > "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.d_sed" "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.d" && rm -f "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.c
+ 
+Building file: ../Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.src" "../Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.c" && \
+if [ -f "Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/Infra\/Platform\/Tricore\/Compilers\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.d" > "Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.d_sed" && cp "Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.d_sed" "Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.d" && rm -f "Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.c
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Building file: ../Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Pos.c
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Pos.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Pos.src" "../Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Pos.c" && \
+if [ -f "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Pos.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/Service\/CpuGeneric\/StdIf\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Pos.d" > "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Pos.d_sed" && cp "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Pos.d_sed" "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Pos.d" && rm -f "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Pos.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Pos.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.c
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.src" "../Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.c" && \
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+if [ -f "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/Cpu\/CStart\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.d" > "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.d_sed" "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.d" && rm -f "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.c
+ 
+Building file: ../Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Timer.c
+Invoking: TASKING C/C++ Compiler
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+cctc -cs --dep-file="Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Timer.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Timer.src" "../Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Timer.c" && \
+if [ -f "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Timer.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/Service\/CpuGeneric\/StdIf\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Timer.d" > "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Timer.d_sed" && cp "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Timer.d_sed" "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Timer.d" && rm -f "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Timer.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Timer.c
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Building file: ../Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.c
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.src" "../Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.c" && \
+if [ -f "Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/Infra\/Platform\/Tricore\/Compilers\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.d" > "Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.d_sed" && cp "Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.d_sed" "Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.d" && rm -f "Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.c
+ 
+Building file: ../Libraries/Service/CpuGeneric/StdIf/IfxStdIf_PwmHl.c
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/Service/CpuGeneric/StdIf/IfxStdIf_PwmHl.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_PwmHl.src" "../Libraries/Service/CpuGeneric/StdIf/IfxStdIf_PwmHl.c" && \
+if [ -f "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_PwmHl.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/Service\/CpuGeneric\/StdIf\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_PwmHl.d" > "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_PwmHl.d_sed" && cp "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_PwmHl.d_sed" "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_PwmHl.d" && rm -f "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_PwmHl.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/Service/CpuGeneric/StdIf/IfxStdIf_PwmHl.c
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Building file: ../Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.src" "../Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.c" && \
+if [ -f "Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/Infra\/Platform\/Tricore\/Compilers\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.d" > "Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.d_sed" && cp "Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.d_sed" "Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.d" && rm -f "Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.c
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Building file: ../Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.c
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.src" "../Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.c" && \
+if [ -f "Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/Infra\/Platform\/Tricore\/Compilers\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.d" > "Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.d_sed" && cp "Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.d_sed" "Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.d" && rm -f "Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.c
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.src
+Invoking: TASKING Assembler
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.src
+ 
+Building file: ../Configurations/Debug/sync_on_halt.c
+Invoking: TASKING C/C++ Compiler
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+cctc -cs --dep-file="Configurations/Debug/sync_on_halt.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Configurations/Debug/sync_on_halt.src" "../Configurations/Debug/sync_on_halt.c" && \
+if [ -f "Configurations/Debug/sync_on_halt.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Configurations\/Debug\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Configurations/Debug/sync_on_halt.d" > "Configurations/Debug/sync_on_halt.d_sed" && cp "Configurations/Debug/sync_on_halt.d_sed" "Configurations/Debug/sync_on_halt.d" && rm -f "Configurations/Debug/sync_on_halt.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Configurations/Debug/sync_on_halt.c
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Building file: ../Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.c
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.src" "../Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.c" && \
+if [ -f "Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/Infra\/Platform\/Tricore\/Compilers\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.d" > "Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.d_sed" && cp "Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.d_sed" "Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.d" && rm -f "Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.c
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.src
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Asclin/Asc/IfxAsclin_Asc.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Asclin/Asc/IfxAsclin_Asc.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Asclin/Asc/IfxAsclin_Asc.src" "../Libraries/iLLD/TC27D/Tricore/Asclin/Asc/IfxAsclin_Asc.c" && \
+if [ -f "Libraries/iLLD/TC27D/Tricore/Asclin/Asc/IfxAsclin_Asc.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/Libraries\/iLLD\/TC27D\/Tricore\/Asclin\/Asc\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Libraries/iLLD/TC27D/Tricore/Asclin/Asc/IfxAsclin_Asc.d" > "Libraries/iLLD/TC27D/Tricore/Asclin/Asc/IfxAsclin_Asc.d_sed" && cp "Libraries/iLLD/TC27D/Tricore/Asclin/Asc/IfxAsclin_Asc.d_sed" "Libraries/iLLD/TC27D/Tricore/Asclin/Asc/IfxAsclin_Asc.d" && rm -f "Libraries/iLLD/TC27D/Tricore/Asclin/Asc/IfxAsclin_Asc.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Asclin/Asc/IfxAsclin_Asc.c
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.src
+ 
+Building file: ../uart.c
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="uart.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "uart.src" "../uart.c" && \
+if [ -f "uart.d" ]; then sed.exe -r  -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "uart.d" > "uart.d_sed" && cp "uart.d_sed" "uart.d" && rm -f "uart.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../uart.c
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Building file: ../Cpu0_Main.c
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c" && \
+if [ -f "Cpu0_Main.d" ]; then sed.exe -r  -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Cpu0_Main.d" > "Cpu0_Main.d_sed" && cp "Cpu0_Main.d_sed" "Cpu0_Main.d" && rm -f "Cpu0_Main.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Cpu0_Main.c
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.src
+Invoking: TASKING Assembler
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Building file: ../Cpu2_Main.c
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Cpu2_Main.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Cpu2_Main.src" "../Cpu2_Main.c" && \
+if [ -f "Cpu2_Main.d" ]; then sed.exe -r  -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Cpu2_Main.d" > "Cpu2_Main.d_sed" && cp "Cpu2_Main.d_sed" "Cpu2_Main.d" && rm -f "Cpu2_Main.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Cpu2_Main.c
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.src
+Invoking: TASKING Assembler
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.src
+Invoking: TASKING Assembler
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.src"
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Building file: Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.asm.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.asm.o" "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.asm.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.asm.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.o" "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.src
+Invoking: TASKING Assembler
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.src
+ 
+Building file: ../Cpu1_Main.c
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Cpu1_Main.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/Users/user/AURIX-v1.9.20-workspace/02_UART/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Cpu1_Main.src" "../Cpu1_Main.c" && \
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+if [ -f "Cpu1_Main.d" ]; then sed.exe -r  -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Cpu1_Main.d" > "Cpu1_Main.d_sed" && cp "Cpu1_Main.d_sed" "Cpu1_Main.d" && rm -f "Cpu1_Main.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Cpu1_Main.c
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_Fifo.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_Fifo.o" "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_Fifo.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_Fifo.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.src
+Invoking: TASKING Assembler
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.src
+Invoking: TASKING Assembler
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Building file: Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.o" "Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Building file: Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.o" "Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.o" "Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Building file: Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.o" "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.o" "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.o" "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Building file: Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.o" "Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Building file: Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.o" "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.o" "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Building file: Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.o" "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.o" "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Building file: Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.o" "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.src"
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Finished building: Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.o" "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Building file: Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.o" "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Building file: Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.o" "Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.o" "Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Building file: Libraries/iLLD/TC27D/Tricore/Cpu/Irq/IfxCpu_Irq.src
+Invoking: TASKING Assembler
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Cpu/Irq/IfxCpu_Irq.o" "Libraries/iLLD/TC27D/Tricore/Cpu/Irq/IfxCpu_Irq.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/Cpu/Irq/IfxCpu_Irq.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.o" "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.o" "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.src
+ 
+Building file: Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Pos.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Pos.o" "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Pos.src"
+Finished building: Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Pos.src
+ 
+Building file: Libraries/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.o" "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.src"
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Finished building: Libraries/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.o" "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Building file: Libraries/iLLD/TC27D/Tricore/Asclin/Std/IfxAsclin.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Asclin/Std/IfxAsclin.o" "Libraries/iLLD/TC27D/Tricore/Asclin/Std/IfxAsclin.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/Asclin/Std/IfxAsclin.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Building file: Libraries/Service/CpuGeneric/StdIf/IfxStdIf_PwmHl.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_PwmHl.o" "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_PwmHl.src"
+Finished building: Libraries/Service/CpuGeneric/StdIf/IfxStdIf_PwmHl.src
+ 
+Building file: Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.o" "Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.src"
+Finished building: Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.src
+ 
+Building file: Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.o" "Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.src"
+Finished building: Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Building file: Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.o" "Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.src"
+Finished building: Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.src
+ 
+Building file: Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.o" "Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.src"
+Finished building: Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/Asclin/Asc/IfxAsclin_Asc.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Asclin/Asc/IfxAsclin_Asc.o" "Libraries/iLLD/TC27D/Tricore/Asclin/Asc/IfxAsclin_Asc.src"
+Finished building: Libraries/iLLD/TC27D/Tricore/Asclin/Asc/IfxAsclin_Asc.src
+ 
+Building file: Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Timer.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Timer.o" "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Timer.src"
+Finished building: Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Timer.src
+ 
+Building file: Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.src
+Invoking: TASKING Assembler
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.o" "Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.src"
+Finished building: Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.src
+ 
+Building file: Cpu1_Main.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu1_Main.o" "Cpu1_Main.src"
+Finished building: Cpu1_Main.src
+ 
+Building file: Cpu0_Main.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Finished building: Cpu0_Main.src
+ 
+Building file: Cpu2_Main.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu2_Main.o" "Cpu2_Main.src"
+Finished building: Cpu2_Main.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Building file: uart.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "uart.o" "uart.src"
+Finished building: uart.src
+ 
+Building file: Configurations/Debug/sync_on_halt.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Configurations/Debug/sync_on_halt.o" "Configurations/Debug/sync_on_halt.src"
+Finished building: Configurations/Debug/sync_on_halt.src
+ 
+Building target: 02_UART.elf
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Invoking: TASKING Linker
+cctc --lsl-file="../Lcf_Tasking_Tricore_Tc.lsl" -Wl-Oc -Wl-OL -Wl-Ot -Wl-Ox -Wl-Oy -Wl--map-file="02_UART.map" -Wl-mc -Wl-mf -Wl-mi -Wl-mk -Wl-ml -Wl-mm -Wl-md -Wl-mr -Wl-mu --no-warnings= -Wl--error-limit=42 --fp-model=3 -lrt --lsl-core=vtc --exceptions --strict --anachronisms --force-c++ -Ctc27xd -o"02_UART.elf" -Wl-o"02_UART.hex:IHEX"  ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.o  ./Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.asm.o ./Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.o ./Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_Fifo.o  ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.o  ./Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.o  ./Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.o  ./Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.o ./Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.o ./Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.o  ./Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.o  ./Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.o  ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.o  ./Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.o  ./Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.o  ./Libraries/iLLD/TC27D/Tricore/Cpu/Irq/IfxCpu_Irq.o  ./Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.o ./Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.o ./Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.o  ./Libraries/iLLD/TC27D/Tricore/Asclin/Std/IfxAsclin.o  ./Libraries/iLLD/TC27D/Tricore/Asclin/Asc/IfxAsclin_Asc.o  ./Libraries/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.o ./Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Pos.o ./Libraries/Service/CpuGeneric/StdIf/IfxStdIf_PwmHl.o ./Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Timer.o  ./Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.o ./Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.o ./Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.o ./Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.o ./Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.o  ./Configurations/Debug/sync_on_halt.o  ./Cpu0_Main.o ./Cpu1_Main.o ./Cpu2_Main.o ./uart.o 
+Finished building target: 02_UART.elf
+ 
+Invoking: Print Size
+elfsize  "02_UART.elf"
+TASKING VX-toolset for AURIX Development Studio (non-commercial): ELF size v1.1r8 Build 22011964
+Total sizes:
+ROM: 0x36a1 (13985) = code: 0x3494 (13460) + romdata: 0x20d (525)
+RAM: 0x9781 (38785) = data + bss
+Finished building: 02_UART.siz
+ 
+
+16:12:40 Build Finished. 0 errors, 0 warnings. (took 8s.876ms)
+

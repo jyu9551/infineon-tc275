@@ -1,0 +1,17 @@
+/*
+ * Encoder.c
+ *
+ *  Created on: 2024. 7. 1.
+ *      Author: user
+ */
+
+IfxPort_setPinModeInput(){
+
+
+
+}
+
+IfxPort_getPinState(){
+
+
+}

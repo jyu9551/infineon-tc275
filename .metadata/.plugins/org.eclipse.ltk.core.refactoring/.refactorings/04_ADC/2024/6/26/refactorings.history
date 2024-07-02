@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ADC/DrvAdc..h&apos; to &apos;DrvAdc.h&apos;" description="Rename resource &apos;DrvAdc..h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="DrvAdc..h" name="DrvAdc.h" stamp="1719538221041" updateReferences="true"/>
+</session>

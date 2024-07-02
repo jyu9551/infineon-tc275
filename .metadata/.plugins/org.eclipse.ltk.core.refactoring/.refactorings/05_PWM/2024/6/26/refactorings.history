@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;PWM/GtmTomPwmhl.h&apos; to &apos;GtmTomPwmHl.h&apos;" description="Rename resource &apos;GtmTomPwmhl.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="GtmTomPwmhl.h" name="GtmTomPwmHl.h" stamp="1719554677896" updateReferences="true"/>
+</session>

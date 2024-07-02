@@ -1,0 +1,12 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:01_LED Blink,org.eclipse.launchbar.core.descriptorType.default\:02_UART,org.eclipse.launchbar.core.descriptorType.default\:03_APP scheduling,org.eclipse.launchbar.core.descriptorType.default\:05_PWM,org.eclipse.launchbar.core.descriptorType.default\:06_ENCODER,org.eclipse.launchbar.core.descriptorType.default\:07_PID
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:01_LED\ Blink/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:01_LED\ Blink/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:06_ENCODER/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:APP\ scheduling/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:APP\ scheduling/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:LED\ Blink/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:LED\ Blink/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

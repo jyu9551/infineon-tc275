@@ -1,0 +1,14 @@
+/*
+ * DrvAdc.c
+ *
+ *  Created on: 2024. 6. 28.
+ *      Author: user
+ */
+#include "DrvAdc.h"
+#include "IfxVadc.h"
+#include "IfxVadc_Adc.h"
+
+typedef struct {
+        IfxVadc_Adc vadc;
+        IfxVadc_Adc_Group adcGroup;
+} App_VadcAutoScan;
